@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_redesocias_redes_socias",
+  "info": {
+    "displayName": "redes_socias"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

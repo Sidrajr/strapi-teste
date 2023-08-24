@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "navs",
+  "info": {
+    "singularName": "nav",
+    "pluralName": "navs",
+    "displayName": "Nav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "displayName": "page",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.page"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "redes_sociais": {
+      "displayName": "redes_socias",
+      "type": "component",
+      "repeatable": true,
+      "component": "redesocias.redes-socias"
+    }
+  }
+}
